@@ -78,18 +78,27 @@ section {
         max-width: 90%;
     }
 
-    .produtos {
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2%;
+    section {
+        .container {
+            max-width: 90%;
+        }
+    
+        .produtos {
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 2%;
+            margin-bottom: 32px;
+        }
     }
 }
 
 @media screen and (max-width: 767px) {
-    .produtos {
-        display: block;
-    }
-
-    .produtos-item {
-        margin-bottom: 16px;
+    section {
+        .produtos {
+            display: block;
+        }
+    
+        .produtos-item {
+            margin-bottom: 16px;
+        }
     }
 }

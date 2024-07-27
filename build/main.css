@@ -69,16 +69,20 @@ section .produtos-item button:hover {
   .container {
     max-width: 90%;
   }
-  .produtos {
+  section .container {
+    max-width: 90%;
+  }
+  section .produtos {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2%;
+    margin-bottom: 32px;
   }
 }
 @media screen and (max-width: 767px) {
-  .produtos {
+  section .produtos {
     display: block;
   }
-  .produtos-item {
+  section .produtos-item {
     margin-bottom: 16px;
   }
 }
